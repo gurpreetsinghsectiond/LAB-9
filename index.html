@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Photo Gallery</h1> 
+    </header> 
+    <section class="filters">
+        <button class="filter" data-filter="all">All</button>
+        <button class="filter" data-filter="river">River</button>
+        <button class="filter" data-filter="snow">Snow</button>
+        <button class="filter" data-filter="animals">Animals</button>  
+        <button class="filter" data-filter="trees">trees</button>
+        <button class="filter" data-filter="village">village</button>
+        <button class="filter" data-filter="leaves">leaves</button>
+        <button class="filter" data-filter="mountain">mountains</button> 
+        <button class="filter" data-filter="fountain">fountain</button>
+    </section>
+    <section class="gallery">
+        <img src="river.jpeg" alt="River Image" class="river"> 
+        <img src="snow.jpeg" alt="Snow Image" class="snow"> 
+        <img src="animal.jpeg" alt="Animal Image" class="animal">   
+        <img src="trees.jpeg" alt="Trees Image" class="trees">
+        <img src="village.jpeg" alt="village Image" class="village">
+        <img src="leaves.jpeg" alt="Leaves Image" class="leaves">
+        <img src="mountain.jpeg" alt="Mountain Image" class="mountain">  
+        <img src="fountain.jpeg" alt="Fountain Image" class="fountain">  
+    </section>
+        <div> class="lightbox" 
+            <img src="snow.jpeg" alt="snow">   
+            <span class="close-btn">&times;</span>   
+        </div> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+    <footer>
+    <p>Made by Gurpeet Singh</p>  
+    </footer>
+</body>
+</html>
